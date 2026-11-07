@@ -1,18 +1,15 @@
-import Navbar from './components/Navbar.jsx'
-import Hero from './components/Hero.jsx'
-
 import React from 'react'
+import Navbar from './components/Navbar'
+import Hero from './components/Hero'
 
 const App = () => {
   return (
-    <div className="min-h-screen bg-black text-white ">
+    <div>
       <Navbar />
-      <main>
-        <Hero />
-      </main>
+      <Hero/>
+      
     </div>
   )
 }
 
 export default App
-

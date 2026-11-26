@@ -1,0 +1,11 @@
+$kind: http-request
+name: ""
+url: http://localhost:5001/api/whatsapp/send
+method: POST
+body:
+  type: json
+  content: |-
+    {
+      "message": "TEST - CuriousHub WhatsApp"
+    }
+order: 1000
